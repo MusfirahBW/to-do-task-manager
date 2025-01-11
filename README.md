@@ -33,6 +33,7 @@ This application uses features such as **JWT-based authentication**, **Flask Blu
 
 Below is the directory structure of the project:
 
+```
 app/                      # Core application folder containing all Flask components
 ├── auth/                 # Blueprint for user authentication routes
 │   ├── __init__.py       # Initializes the auth Blueprint
@@ -46,7 +47,7 @@ app/                      # Core application folder containing all Flask compone
 instance/                 # Instance folder for application-specific files (e.g., configurations)
 requirements.txt          # List of dependencies required for the project
 run.py                    # Entry point to start the Flask application
-
+```
 ---
 
 ## 🛠️ **Setup and Installation**
