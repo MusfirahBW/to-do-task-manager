@@ -99,7 +99,7 @@ Below is what your terminal should look like after running the application:
 
 Launch Postman on your computer.
     
-### **2\. Test /auth/signup (Register a User)**
+### **2\. Test /auth/user_signup (Register a User)**
 
 #### Steps:
 
@@ -121,10 +121,11 @@ Launch Postman on your computer.
 
 
 #### Expected Response:
+You will see a message mentioning the new user registration.
 
 ![Postman User Sign Up Screenshot](images/user_signup.PNG "Sign up Screenshot")
 
-### **3\. Test /auth/login (Log in the User)**
+### **3\. Test /auth/user_login (Log in the User)**
 
 #### Steps:
 
@@ -144,10 +145,13 @@ Launch Postman on your computer.
     
 
 #### Expected Response:
+Upon successful login, return a JWT token to the user as an output.
 
 ![Postman User Login Up Screenshot](images/user_login.PNG "Log in Screenshot")
 
+
 > Note: Copy the value of the token field (you will use it for the next steps).
+
 
 I have registered another user too to fulfill the requirement that no two users should be able to access each other activities.
 
@@ -155,7 +159,7 @@ I have registered another user too to fulfill the requirement that no two users 
 
 ### **4\. Test /tasks Endpoints**
 
-Now, you’ll use the **JWT token** obtained from the /auth/login response for these endpoints.
+Now, you’ll use the **JWT token** obtained from the /auth/user_login response for these endpoints.
 
 #### **4.1 Add a Task**
 
@@ -185,6 +189,7 @@ Now, you’ll use the **JWT token** obtained from the /auth/login response for t
     
 
 #### Expected Response:
+Now, you will see the output confirming that a new task has been added to the list.
 
 ![Postman Add Task Body](images/add_task_body.PNG "Add task body Screenshot")
 
@@ -207,6 +212,7 @@ Now, you’ll use the **JWT token** obtained from the /auth/login response for t
 5.  Click **Send**.
 
 #### Expected Response:
+Now, you can see all the task list with their description.
 
 ![Postman View Task](images/view_task.PNG "View Task Screenshot")
 
