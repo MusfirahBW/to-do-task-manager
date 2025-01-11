@@ -33,6 +33,7 @@ This application uses features such as **JWT-based authentication**, **Flask Blu
 
 Below is the directory structure of the project:
 
+```
 app/                      # Core application folder containing all Flask components
 ├── auth/                 # Blueprint for user authentication routes
 │   ├── __init__.py       # Initializes the auth Blueprint
@@ -43,10 +44,9 @@ app/                      # Core application folder containing all Flask compone
 │   ├── task_manage.py    # Contains routes for creating, updating, and retrieving tasks
 ├── __init__.py           # Initializes the main Flask application
 ├── db_model.py           # Defines database models using SQLAlchemy
-instance/                 # Instance folder for application-specific files (e.g., configurations)
 requirements.txt          # List of dependencies required for the project
 run.py                    # Entry point to start the Flask application
-
+```
 ---
 
 ## 🛠️ **Setup and Installation**
@@ -91,7 +91,7 @@ python run.py
 ```
 
 Below is what your terminal should look like after running the application:
-![Application Running Screenshot](images/terminal.png "Terminal Screenshot")
+![Application Running Screenshot](images/terminal.PNG "Terminal Screenshot")
 
 ## 🚀 **Application Functionalities**
 
@@ -122,7 +122,7 @@ Launch Postman on your computer.
 
 #### Expected Response:
 
-![Postman User Sign Up Screenshot](images/user sign up.png "Sign up Screenshot")
+![Postman User Sign Up Screenshot](images/user sign up.PNG "Sign up Screenshot")
 
 ### **3\. Test /auth/login (Log in the User)**
 
