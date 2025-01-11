@@ -122,7 +122,7 @@ Launch Postman on your computer.
 
 #### Expected Response:
 
-![Postman User Sign Up Screenshot](images/user sign up.png "Sign up Screenshot")
+![Postman User Sign Up Screenshot](images/user sign up.PNG "Sign up Screenshot")
 
 ### **3\. Test /auth/login (Log in the User)**
 
