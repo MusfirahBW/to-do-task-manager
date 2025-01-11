@@ -122,7 +122,7 @@ Launch Postman on your computer.
 
 #### Expected Response:
 
-![Postman User Sign Up Screenshot](images/user sign up.PNG "Sign up Screenshot")
+![Postman User Sign Up Screenshot](images/user_signup.PNG "Sign up Screenshot")
 
 ### **3\. Test /auth/login (Log in the User)**
 
@@ -151,7 +151,7 @@ Launch Postman on your computer.
 
 I have registered another user too to fulfill the requirement that no two users should be able to access each other activities.
 
-![Postman Second User Login Up Screenshot](images/another user login.png "Another Log in Screenshot")
+![Postman Second User Login Up Screenshot](images/another_user_login.PNG "Another Log in Screenshot")
 
 ### **4\. Test /tasks Endpoints**
 
@@ -173,7 +173,7 @@ Now, you’ll use the **JWT token** obtained from the /auth/login response for t
             
         *   **Value**: Bearer (replace your\_jwt\_token\_here with the token from /auth/login).
 		
-![Postman Add Task](images/add task header.png "Add task header Screenshot")
+![Postman Add Task](images/add_task_header.PNG "Add task header Screenshot")
             
 5.  Go to the **"Body" tab**.
     
@@ -186,7 +186,7 @@ Now, you’ll use the **JWT token** obtained from the /auth/login response for t
 
 #### Expected Response:
 
-![Postman Add Task Body](images/add task body.png "Add task body Screenshot")
+![Postman Add Task Body](images/add_task_body.PNG "Add task body Screenshot")
 
 #### **4.2 View All Tasks**
 
@@ -208,7 +208,7 @@ Now, you’ll use the **JWT token** obtained from the /auth/login response for t
 
 #### Expected Response:
 
-![Postman View Task](images/view task.png "View Task Screenshot")
+![Postman View Task](images/view_task.PNG "View Task Screenshot")
 
 #### **4.3 Update a Task**
 
@@ -237,11 +237,11 @@ Now, you’ll use the **JWT token** obtained from the /auth/login response for t
 
 #### Expected Response:
 
-![Postman Update Task](images/update task.png "Update Task Screenshot")
+![Postman Update Task](images/update_task.PNG "Update Task Screenshot")
 
 Now, if you view the task list then you will see the updated content.
 
-![Postman Updated Task](images/view task after updation.png "Updated Task Screenshot")
+![Postman Updated Task](images/view_task_after_updation.PNG "Updated Task Screenshot")
 
 #### **4.4 Delete a Task**
 
@@ -264,11 +264,11 @@ Now, if you view the task list then you will see the updated content.
 
 #### Expected Response:
 
-![Postman Delete Task](images/delete task.png "Delete Task Screenshot")
+![Postman Delete Task](images/delete_task.PNG "Delete Task Screenshot")
 
 Now, if you view the task list then you will see the deleted task is not longer there.
 
-![Postman Deleted Task](images/view task after deletion.png "Deleted Task Screenshot")
+![Postman Deleted Task](images/view_task_after_deletion.PNG "Deleted Task Screenshot")
 
 #### **4.5 Mark a Task as Completed**
 
@@ -290,11 +290,11 @@ Now, if you view the task list then you will see the deleted task is not longer 
 
 #### Expected Response:
 
-![Postman Mark as Done Task](images/mark as done task.png "Mark as Done Task Screenshot")
+![Postman Mark as Done Task](images/mark_as_done_task.PNG "Mark as Done Task Screenshot")
 
 Now, if you view the task list then you will see the updated content.
 
-![Postman Marked Task](images/view task after marking done.png "Marked Task Screenshot")
+![Postman Marked Task](images/view_task_after_marking_done.PNG "Marked Task Screenshot")
 
 ## ✔**Conclusion**
 This project demonstrates how to effectively build a modular Flask application with secure user authentication using JWT tokens, database interaction via SQLAlchemy, and route management through Flask Blueprints.
