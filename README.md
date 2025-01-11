@@ -138,7 +138,7 @@ Launch Postman on your computer.
     
     *   Select **"raw"** and **JSON**.
         
-    *   jsonCopy code{ "username": "testuser", "password": "Test@1234"}
+    *   Enter this as the body **{ "username": "testuser", "password": "Test@1234"}**
         
 5.  Click **Send**.
     
@@ -171,7 +171,7 @@ Now, you’ll use the **JWT token** obtained from the /auth/login response for t
         
         *   **Key**: Authorization
             
-        *   **Value**: Bearer (replace your\_jwt\_token\_here with the token from /auth/login).
+        *   **Value**: Bearer (replace your\_jwt\_token\_here with the token from /auth/user_login).
 		
 ![Postman Add Task](images/add_task_header.PNG "Add task header Screenshot")
             
@@ -179,7 +179,7 @@ Now, you’ll use the **JWT token** obtained from the /auth/login response for t
     
     *   Select **"raw"** and **JSON**.
         
-    *   jsonCopy code{ "title": "Sample Task", "description": "This is a sample task description."}
+    *   Enter this as the body **{ "title": "Sample Task", "description": "This is a sample task description."}**
         
 6.  Click **Send**.
     
@@ -230,7 +230,7 @@ Now, you’ll use the **JWT token** obtained from the /auth/login response for t
     
     *   Select **"raw"** and **JSON**.
         
-    *   jsonCopy code{ "title": "Updated Task ID 1", "description": "Updated description of the task having the id 1."}
+    *   Enter this as the body **{ "title": "Updated Task ID 1", "description": "Updated description of the task having the id 1."}**
         
 6.  Click **Send**.
     
@@ -266,7 +266,7 @@ Now, if you view the task list then you will see the updated content.
 
 ![Postman Delete Task](images/delete_task.PNG "Delete Task Screenshot")
 
-Now, if you view the task list then you will see the deleted task is not longer there.
+Now, if you view the task list, then you will see the deleted task is no longer there.
 
 ![Postman Deleted Task](images/view_task_after_deletion.PNG "Deleted Task Screenshot")
 
@@ -292,7 +292,7 @@ Now, if you view the task list then you will see the deleted task is not longer 
 
 ![Postman Mark as Done Task](images/mark_as_done_task.PNG "Mark as Done Task Screenshot")
 
-Now, if you view the task list then you will see the updated content.
+Now, if you view the task list, then you will see the updated content.
 
 ![Postman Marked Task](images/view_task_after_marking_done.PNG "Marked Task Screenshot")
 
