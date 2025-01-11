@@ -145,7 +145,7 @@ Launch Postman on your computer.
 
 #### Expected Response:
 
-![Postman User Login Up Screenshot](images/user_login.png "Log in Screenshot")
+![Postman User Login Up Screenshot](images/user_login.PNG "Log in Screenshot")
 
 > Note: Copy the value of the token field (you will use it for the next steps).
 
